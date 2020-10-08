@@ -6,9 +6,15 @@
 
 	<package name="br.com.projeto.action" extends="struts-default">
 
-		<action name="hello"
-			class="br.com.projeto.action">
+		<action name="teste"
+			class="br.com.projeto.action.IndexAction">
 			<result name="success">index.jsp</result>
+		</action>
+		
+		
+		<action name="contato"
+			class="br.com.projeto.action.ContatosAction">
+			<result name="success">contatos.jsp</result>
 		</action>
 		
 	</package>

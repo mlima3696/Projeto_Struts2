@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Index</title>
+<title>Insert title here</title>
 </head>
 <body>
-<a href="contato">link contato</a>
+<h1>CONTATOS</h1>
 </body>
 </html>
