@@ -17,5 +17,10 @@
 			<result name="success">contatos.jsp</result>
 		</action>
 		
+		<action name="contato"
+			class="br.com.projeto.action.ATagAction">
+			<result name="success">a.jsp</result>
+		</action>
+		
 	</package>
 </struts>

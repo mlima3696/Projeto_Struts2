@@ -10,7 +10,6 @@
 <title>Exercicio2</title>
 </head>
 <body>
-<h1>Exercico2</h1>
 <s:textfield key="username"/>
 </body>
 </html>
