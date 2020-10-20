@@ -17,9 +17,14 @@
 			<result name="success">contatos.jsp</result>
 		</action>
 		
-		<action name="contato"
-			class="br.com.projeto.action.ATagAction">
+		<action name="b"
+			class="br.com.projeto.action.BTagAction">
 			<result name="success">a.jsp</result>
+		</action>
+		
+		<action name="a"
+			class="br.com.projeto.action.ATagAction">
+			<result name="success">b.jsp</result>
 		</action>
 		
 	</package>

@@ -3,11 +3,11 @@ package br.com.projeto.action;
 import com.opensymphony.xwork2.ActionSupport;
 
 @SuppressWarnings("serial")
-public class ATagAction extends ActionSupport{
+public class BTagAction extends ActionSupport{
 
 	@Override
 	public String execute() throws Exception {
-		System.out.println("Executou com sucesso tag de link A");
+		System.out.println("Executou com sucesso tag de link B");
 		return "success";
 	}
 
