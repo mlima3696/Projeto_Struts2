@@ -3,15 +3,15 @@
 "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
 "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-	<constant name="br.com.projeto.resource" value="global"></constant>
+	<constant name="struts.custom.i18n.resources" value="global"></constant>
 	<constant name="struts.devMode" value="true"></constant>
+	
 	<package name="br.com.projeto.action" extends="struts-default">
 
 		<action name="teste" class="br.com.projeto.action.IndexAction">
 			<result name="success">index.jsp</result>
 		</action>
-
-
+		
 		<action name="contato"
 			class="br.com.projeto.action.ContatosAction">
 			<result name="success">contatos.jsp</result>
@@ -27,7 +27,7 @@
 		
 		<action name="register"
 			class="br.com.projeto.action.RegistrationAction">
-			<result name="success">welcome.jsp</result>
+			<result name="success">registration.jsp</result>
 		</action>
 
 	</package>
