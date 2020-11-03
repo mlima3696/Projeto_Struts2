@@ -12,7 +12,6 @@
 	<ol>
 		<li><s:url var="minhaurl" value="a"></s:url> <s:a
 				href="%{minhaurl}">Retorno para pagina a</s:a></li>
-
 	</ol>
 </body>
 </html>
